@@ -3,37 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Gallery</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <h1>My gallery</h1>
-    <hr>
-    <nav>
+
+    <header id="main-header">
+        <h1 class="main-title">My Gallery</h1>
+    </header>
+
+    <nav class="navigation">
         <a href="../index.html">Home</a>
         <a href="../pages/contact.html">Contacts</a>
-        <a href="pages/gallery.html">Gallery</a>
+        <a href="gallery.html">Gallery</a>
     </nav>
 
-    <hr>
+    <section class="gallery">
 
-    <h2>My photo</h2>
+        <h2 class="section-title">My photos</h2>
 
-    <p>I'm listening carefully to Andriy</p>
+        <div class="gallery-item">
+            <p>I'm listening carefully to Andriy</p>
+            <img src="../photo/IMG_3948.JPG" alt="Mindfulness">
+        </div>
 
-    <img src="../photo/IMG_3948.JPG" alt="Mindfulness" width="200">
+        <div class="gallery-item">
+            <p>I'm trying to figure out how to do my homework.</p>
+            <img src="../photo/IMG_3945.JPG" alt="Shock">
+        </div>
 
-    <p>I'm trying to figure out how to do my homework.</p>
-    <img src="../photo/IMG_3945.JPG" alt="Shock" width="200">
+        <div class="gallery-item">
+            <p>I'm doing my homework.</p>
+            <img src="../photo/photo_2026-06-09_20-35-32.jpg" alt="Acceptance">
+        </div>
 
-    <p> I'm doing my homework.</p>
-    <img src="../photo/photo_2026-06-09_20-35-32.jpg" alt="Acceptance" width="200">
+        <div class="gallery-item">
+            <p>When I got 100 points</p>
+            <img src="../photo/IMG_3946.JPG" alt="Good job">
+        </div>
+        <div class="gallery-item final">
+            <strong>That's all</strong><br>
+            <img src="../photo/thank-you-for-209757aaa1.jpg" alt="Good job">
+        </div>
 
-    <p>When I got 100 points</p>
-    <img src="../photo/IMG_3946.JPG" alt="Good job" width="200">
-
-    <p align="center">
-        <strong>That's all</strong><br>
-        <img src="../photo/thank-you-for-209757aaa1.jpg" alt="Good job" width="300">  
-    </p>
+    </section>
 
 </body>
 </html>

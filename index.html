@@ -6,39 +6,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hi! I'm Viktoria—a future QA Engineer 👋</h1>
-    <img src="photo/IMG_3937.JPG" alt="Like, that's me"  width="200">
-    <nav>
-        <a href="index.html">Home</a> 
-        <a href="pages/contact.html">Contacts</a> 
-        <a href="pages/gallery.html">Gallery</a>
+    <header id="main-header">
+        <h1 class="main-title">Hi! I'm Viktoria—a future QA Engineer 👋</h1> 
+        <img class="profile-photo" src="photo/IMG_3937.JPG" alt="Like, that's me" width="200">
+    </header>
+    <nav class="navigation">
+     <a href="index.html">Home</a>
+     <a href="pages/contact.html">Contacts</a>
+     <a href="pages/gallery.html">Gallery</a>
     </nav>
-    <hr>
-        <h2>A few facts about me</h2>
-        <p>
-         My name is Victoria, and I'm 26 years old.
+
+    <section id="about">
+     <h2 class="section-title">A few facts about me</h2>
+      <p>
+        My name is Victoria, and I'm 26 years old.
         I'm currently studying at Hillel School to become a QA Engineer.
-    </p>
-    <h3>Fun facts about me</h3>
-    <table>
-         <tr>
-         <td>
-            <img src="photo/IMG_3943.JPG" alt="QA Cat" width="180">
-         </td>
-         <td>
-            <ul>
-                <li>I'm learning to spot mistakes before they spot me.</li>
-                <li>Future QA Engineer.</li>
-                <li>Coffee and curiosity are my superpowers.</li>
-            </ul>
-        </td>
-        </tr> 
-    </table>
-    <p align="center"> <button onclick="location.href='pages/contact.html'">Contact me</button>
+      </p>
+    </section>
+
+    <section id="facts">
+     <h3 class="section-title">Fun facts about me</h3>
+        <table>
+             <tr>
+                <td>
+                 <img class="cat-photo" src="photo/IMG_3943.JPG" width="180">
+                </td>
+                <td>
+                   <ul>
+                     <li>I'm learning to spot mistakes before they spot me.</li>
+                     <li>Future QA Engineer.</li>
+                     <li>Coffee and curiosity are my superpowers.</li>
+                    </ul>
+                 </td>
+           </tr>
+        </table>
+    </section>
+    <div class="contact-section">
+       <button class="contact-btn" onclick="location.href='pages/contact.html'">
+          Contact me
+        </button>
         <br>
-        <img src="photo/IMG_3939.JPG" alt="Good job" width="100">
-    </p>
+        <img class="footer-photo" src="photo/IMG_3939.JPG" width="100">
+    </div>
+
 </body>
 </html>
-
-

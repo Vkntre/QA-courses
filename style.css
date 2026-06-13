@@ -1,0 +1,138 @@
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f5f7fa;
+    color: #333;
+    margin: 20px;
+}
+#main-header { /* Header */
+    text-align: center;
+    margin-top: 20px;
+}
+.main-title {
+    font-size: 32px;
+    color: #2c2c2c;
+    margin: 0;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+    background-color: #ffffff;
+    padding: 12px 0;
+    margin: 20px auto;
+
+    width: 70%;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+.navigation a:hover {
+    background-color: #f2c6d6;
+    color: #000;
+}
+.section-title {
+    color: #3a0718;
+    margin-top: 20px;
+}
+.contact-btn {
+    background-color: #d87093; /* Button */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-btn:hover {
+    background-color: #c76085;
+}
+.contact-section {
+    text-align: center;
+    margin-top: 20px;
+}
+.profile-photo,
+.cat-photo,
+.footer-photo {
+    border-radius: 10px;
+    border: 2px solid #f2c6d6;
+}
+
+/* CONTACT PAGE */
+.contact-card {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-box {
+    display: inline-block;
+    background-color: #fff;
+    border: 2px solid #f2c6d6;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    margin-top: 15px;
+}
+
+.contact-box p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.motto {
+    font-style: italic;
+    color: #555;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* GALLERY PAGE */
+.gallery {
+    text-align: center;
+    margin-top: 30px;
+}
+.gallery-item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+    width: 220px;
+}
+.gallery-item img {
+    width: 100%;
+    border-radius: 12px;
+    border: 2px solid #f2c6d6;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+.final {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.final strong {
+    font-family: 'Pacifico', cursive; /* glow effect */
+    font-size: 34px;
+    color: #3d1b26;
+
+    display: block;
+    margin-bottom: 10px;
+
+    text-shadow: 0 0 8px #f2c6d6,
+                 0 0 16px #ff9dbb,
+                 0 0 24px #ff6f91;
+}
+.final img {
+    width: 300px;
+    border-radius: 12px;
+    border: 2px solid #f2c6d6;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
